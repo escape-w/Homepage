@@ -1,16 +1,3 @@
-%%%%%%%%%%%%%%%%%
-% This is an sample CV template created using altacv.cls
-% (v1.7, 9 August 2023) written by LianTze Lim (liantze@gmail.com). Compiles with pdfLaTeX, XeLaTeX and LuaLaTeX.
-%
-%% It may be distributed and/or modified under the
-%% conditions of the LaTeX Project Public License, either version 1.3
-%% of this license or (at your option) any later version.
-%% The latest version of this license is in
-%%    http://www.latex-project.org/lppl.txt
-%% and version 1.3 or later is part of all distributions of LaTeX
-%% version 2003/12/01 or later.
-%%%%%%%%%%%%%%%%
-
 %% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
 % \documentclass[10pt,a4paper,normalphoto]{altacv}
 
@@ -104,12 +91,12 @@
 \personalinfo{%
   % Not all of these are required!
   \email{75devendrasahu@gmail.com}
-  \phone{+351-920412625}
+  \phone{+91-7566503852}
   % \mailaddress{Åddrésş, Street, 00000 Cóuntry}
-  \location{Porto, PORTUGAL}
+  \location{Gurgaon, India}
   % \homepage{www.homepage.com}
   % \twitter{@twitterhandle}
-  \linkedin{https://www.linkedin.com/in/75devendrasahu/}
+  \linkedin{www.linkedin.com/in/thisisdevendrasahu}
   \github{https://github.com/escape-w}
   %\orcid{0000-0000-0000-0000}
   %% You can add your own arbitrary detail with
@@ -145,44 +132,47 @@
 \begin{paracol}{2}
 \cvsection{Experience}
 
-\cvevent{Senior DevOps Engineer}{Nagarro}{Feburary 2023 -- Ongoing}{Porto}
+\cvevent{Senior DevOps Engineer}{Nagarro}{Jan 2023 -- Ongoing}{Porto}
 \begin{itemize}
-\item worked on several github action, perform PR raise and self approval mechanism
-\item implemented pre-commit pipelines
-\item implemented terraform and terragrunt for several teams
-\item managed eks clusters and gitops
-\item several python scripts for automated process
-\item created docker images for pre-commit and others
+\item Created reusable github workflows at org level.
+\item Created ITSM flow for regular task by fully IaC terraform on AWS lambda
+\item ITSM alerting by containerization in AWS Lambda by IaC
+\item Python scripts and packages for automation ITSM task.
+\item Github actions for onboarding users on Github.
+\item Setup coding standards at department level by using pre-commits.
+\item Cert manager deployment by Argo CD using helm
+\item dockerize terraform and other applications.
+\item Setup full IaC for application using terragrunt.
+\item Develop yaml validation script to validate custom yamls
 \end{itemize}
 
 \divider
 
-\cvevent{DevOps Engineer}{Nagarro}{October 2021 -- January 2023}{India}
+\cvevent{DevOps Engineer}{Nagarro}{Oct 2021 -- Jan 2023}{remote}
 \begin{itemize}
-\item Worked extensively on Azure Devops and created pipelines for IBM ACE tools
-\item Created IAC code for CiscoACI and pipeline in gitlab
-\item shell scripting for several projects
-\item IBM ACE containerization and helm chart for deployment
+\item Worked extensively on Azure Devops and created pipelines for IBM ACE, API Connect, Java pipelines
+\item Automate day to day stuff for IBM ACE Integration and containerize them.
+\item shell scripting for automation
+\item Installation and other support related automation to reduce human efforts.
 \end{itemize}
 
 \divider
 
-\cvevent{DevOps Engineer}{TCS}{September 2019 -- September 2019}{Noida}
+\cvevent{DevOps Engineer}{TCS}{Sep 2019 -- Sep 2021}{Noida}
 \begin{itemize}
-\item Created shared libraries and pipeline for Jenkins in groovy code to deploy and validate Kubeflow process 
-\item Used flyway container for data migration in pipelines. 
-\item Proficient in writing IaC using Terraform to build the AWS and Azure Infra Use codedeploy pipelines for release for web apps Supported Travis-Ci, Harness for CICD
-\item Worked with security tools like sonarqube, checkmarx, twistlock, nexusiq, trivy
+\item Setup and created shared libraries for jenkins in groovy. 
+\item IaC to build AWS resources.
+\item Proficient in writing IaC using Terraform to build the AWS and Azure Infra Use codedeploy pipelines for release for web apps Supported cicd pipelines
+\item Worked on AIOps tool for auto resolve tickets in service now.
+\item Worked with security tools like sonarqube, trivy
 \end{itemize}
 
 \divider
 
-\cvevent{System Engineer}{TCS}{December 2016 -- August 2019}{Gandhinagar}
+\cvevent{System Engineer}{TCS}{Dec 2016 -- Aug 2019}{Gandhinagar}
 \begin{itemize}
-\item Accomplish MQ upgrade (LCM) for organization from MQ8 to MQ9 through shell and powershell scripts for automation and ansible for deployment. 
-\item Develop Powershell and shell scripts to automate the regular task. 
-\item Handled critical tickets, SSL certificates in through python 
-\item Created sftp passwordless connection for data transfer.
+\item Support and Maintain IBM MQ, automate day to day process by shell and powershell scripts 
+\item LCM of IBM MQ with shell and ansible on 500 servers / Handle SSL certificate for application by python and ansible. 
 \end{itemize}
 
 \medskip
@@ -227,38 +217,35 @@
 %% page if the content is too long.
 \switchcolumn
 
-\cvsection{My Life Philosophy}
+\cvsection{CORE PHILOSOPHY}
 
 \begin{quote}
-``Constantly pushing boundaries, staying ahead of the curve, and driving excellence in every aspect of Life''
+``Striving for innovation, growth, and excellence in every aspect of life.''
 \end{quote}
 
 \cvsection{Skills}
-
-\cvtag{Hard-working}
-\cvtag{Eye for detail}\\
-\cvtag{Motivator \& Leader}
-
-\divider\smallskip
-
 \cvtag{Kubernetes}
 \cvtag{AWS}
 \cvtag{Terraform}
 \cvtag{Ansible} 
-\cvtag{docker Podman}
+\cvtag{Docker}
 \cvtag{Github Actions}
-\cvtag{Gitlab}
-\cvtag{terragrunt}
 \cvtag{jenkins}
-\cvtag{groovy}
-\cvtag{precommit}
 \cvtag{Python}
 \cvtag{GIT}
+\cvtag{CI/CD pipelines}
+\cvtag{SDLC}
 \cvtag{Azure DevOps}
-\cvtag{Powershell}
-\cvtag{Shell} 
-\cvtag{ServiceNow} 
-\cvtag{IBM Tools}
+\cvtag{problem-solving}
+\cvtag{Containerisation}
+\cvtag{JIRA}
+\cvtag{Automation}
+\cvtag{Prometheus}
+\cvtag{Azure} 
+\cvtag{ITSM/ITIL4}
+\cvtag{SRE}
+\cvtag{bash}
+\cvtag{scripting}
 
 \cvsection{Certifications}
 
